@@ -1,0 +1,47 @@
+#+title: dotupdate
+#+author: thallheim =thall@thallheim.com=
+#+STARTUP: showall
+
+A utility script intended to help keep a given dotfile repo up to date.
+
+* TODOs
+
+** Main list (active: [1/14])
+*- _Legend_:*
+  *[X]* /Started/ongoing/ | *[-]* /On hold/
+
+--------------
+
+- [ ] Update README after moving to own repo
+- [ ] Implement generating default =settings.conf= ?
+- [X] Allow set/unset/get settings through flags
+  - Set any defaults?
+- [ ] Allow globbing in inclusion list?
+- [ ] Add --force flag to allow clobbering if repo file is newer than src
+- [ ] Move dir exist check from copy_all() -> mk_dst_dirs()
+- [ ] Split  ~mk_dst_dirs()~ so ~-t~ can check dst paths are valid, sans mkdir
+- [ ] Add a function to check the error arrays at the end of all runs
+- [ ] Automate updating man-page source & generating a new one
+- [-] Write a good-enough menu for 'interactive'-mode
+- [ ] Allow multiple inclusion sources
+  - [ ] Nested list input handling (i.e "per-app" lists and dir trees)
+- [ ] (Maybe) Implement a small error stack just in case it becomes untrivial
+  later
+- [ ] Allow error verbosity levels
+  - Rework after 'proper' arg parsing is implemented
+- [ ] Allow saving existing target root as =dir.old/=
+  - Allow setting for gzip if repo is large enough to warrant compression?
+- [ ] Let user keep a machine/account-local ignore file that matches
+  against the include list, suppressing warnings about those files not
+  being on the local machine
+- [ ] Do =pushd= & =popd= on start and end of run
+  - Try to find out if it'll ever be necessary first. /Upd.:/ Probably
+    not :)
+*** Completed [1/1]
+- [X] Rename, restructure, and fork off updater & man generator
+
+--------------
+* CHANGELOG
+
+*** 0.0.1
+_Init_: Moved into own repo

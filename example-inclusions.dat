@@ -1,0 +1,5 @@
+${HOME}/.emacs
+${HOME}/.emacs.d/example-script.el
+${HOME}/.emacs.d/example-a/hydra.el
+${HOME}/.emacs.d/example-b/org.el
+${HOME}/.tmuxp/dotfiles.yaml
