@@ -36,5 +36,5 @@ older one.
 Written by thallheim <thall@thallheim.com>
 
 # SEE ALSO
-- Full sources at: <https://github.com/thallheim/dotfiles/tree/main/repo-update>
+- Full sources at: <https://github.com/thallheim/dotupdate>
 - Pandoc manual at: <https://pandoc.org/MANUAL.html>
