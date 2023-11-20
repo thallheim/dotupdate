@@ -6,13 +6,13 @@ A utility script intended to help keep a given dotfile repo up to date.
 
 * TODOs
 
-** Main list (active: [1/14])
+** Main list (active: [1/16])
 *- _Legend_:*
   *[X]* /Started/ongoing/ | *[-]* /On hold/
 
 --------------
 
-- [ ] Update README after moving to own repo
+- [ ] Implement deploying configs
 - [ ] Implement generating default =settings.conf= ?
 - [X] Allow set/unset/get settings through flags
   - Set any defaults?
@@ -37,7 +37,8 @@ A utility script intended to help keep a given dotfile repo up to date.
 - [ ] Do =pushd= & =popd= on start and end of run
   - Try to find out if it'll ever be necessary first. /Upd.:/ Probably
     not :)
-*** Completed [1/1]
+*** Completed [2/2]
+- [X] Update README after moving to own repo
 - [X] Rename, restructure, and fork off updater & man generator
 
 --------------
